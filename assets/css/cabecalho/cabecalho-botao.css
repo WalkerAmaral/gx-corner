@@ -1,0 +1,24 @@
+.cabecalho__botao {
+    border-radius: 100vh;
+    color: #f6f6f6;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 1.1rem;
+    font-weight: 500;
+    height: 2rem;
+    text-transform: uppercase;
+}
+
+.cabecalho__botao-principal {
+    background: #c43636;
+    border: 1px solid #c43636;
+    padding: 0 20px;
+}
+
+.cabecalho__botao-secundario {
+    background: url('../../img/settings-icon.svg') no-repeat center / 60%;
+    border: 1px solid #c43636;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 2rem;
+}
