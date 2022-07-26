@@ -1,0 +1,21 @@
+.rodape__produtos {
+    display: flex;
+    justify-content: space-between;
+    width: 40%;
+}
+
+.rodape__produtos div {
+    display: flex;
+    flex-direction: column;
+    gap: .5rem;
+}
+
+.rodape__produtos a {
+    text-decoration: none;
+    color: #bfb6d2;
+    font-weight: 400;
+}
+
+.rodape__produtos h4 {
+    font-weight: 700;
+}
