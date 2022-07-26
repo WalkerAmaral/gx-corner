@@ -1,0 +1,18 @@
+.calendario__data {
+    display: flex;
+    align-items: center;
+    height: 30%;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.calendario__data-dia {
+    font-size: 1.5rem;
+    padding-right: 10%;
+}
+
+.calendario__data-mes {
+    font-size: 0.9rem;
+    border-left: 3px solid gray;
+    padding-left: 10%;
+    text-transform: uppercase;
+}

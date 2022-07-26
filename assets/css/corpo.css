@@ -1,8 +1,12 @@
 .corpo {
     margin: 0 13%;
-    /* background: #2B0101;
+    background-color: #1b0000;
+    /* 
+    background: #2B0101;
     background: -webkit-radial-gradient(bottom, #2B0101, #010101);
     background: -moz-radial-gradient(bottom, #2B0101, #010101);
-    background: radial-gradient(to top, #2B0101, #010101);*/
-    background-color: #1b0000;
+    background: radial-gradient(to top, #2B0101, #010101);
+    */
+    color: #F6F6F6;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
