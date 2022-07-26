@@ -3,7 +3,4 @@
     flex-direction: column;
     justify-content: space-between;
     height: 25vh;
-    padding-top: 1.5rem;
-    padding-bottom: 2rem;
-    border-bottom: 2px rgb(71, 58, 95) solid;
 }

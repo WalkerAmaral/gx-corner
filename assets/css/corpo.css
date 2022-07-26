@@ -10,3 +10,8 @@
     color: #F6F6F6;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
+
+.secao {
+    padding: 1.5rem 0;
+    border-bottom: 2px rgb(71, 58, 95) solid;
+}

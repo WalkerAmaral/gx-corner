@@ -1,0 +1,20 @@
+.selecao__jogo {
+    background: rgb(18, 16, 25);
+    border-radius: 8px;
+    height: 30vh;
+    width: 32%;
+}
+
+.selecao__jogo:hover {
+    background: rgb(30, 29, 35);
+}
+
+.selecao__jogo-link {
+    text-decoration: none;
+    color: #f6f6f6;
+}
+
+.selecao__jogo-imagem {
+    height: 20vh;
+    width: 100%;
+}

@@ -18,27 +18,34 @@
     <link rel="stylesheet" href="./assets/css/conteudo/conteudoCalendario/calendario__conteudo.css">
     <link rel="stylesheet" href="./assets/css/conteudo/conteudoCalendario/calendario__jogo.css">
     <link rel="stylesheet" href="./assets/css/conteudo/conteudoCalendario/calendario__data.css">
+    <link rel="stylesheet" href="./assets/css/conteudo/conteudoSelecao/selecao.css">
+    <link rel="stylesheet" href="./assets/css/conteudo/conteudoSelecao/selecao__titulo.css">
+    <link rel="stylesheet" href="./assets/css/conteudo/conteudoSelecao/selecao__itens.css">
+    <link rel="stylesheet" href="./assets/css/conteudo/conteudoSelecao/selecao__jogo.css">
+    <link rel="stylesheet" href="./assets/css/conteudo/conteudoSelecao/selecao__informacoes.css">
+    <link rel="stylesheet" href="./assets/css/conteudo/conteudoSelecao/tag.css">
+    <link rel="stylesheet" href="./assets/css/titulos.css">
 </head>
 
 <body class="corpo">
 
     <header class="cabecalho">
         <h1 class="cabecalho__titulo">GX Corner</h1>
-        <section class="cabecalho__botoes">
+        <div class="cabecalho__botoes">
             <button class="cabecalho__botao cabecalho__botao-principal">Opinião</button>
             <button class="cabecalho__botao cabecalho__botao-secundario"></button>
-        </section>
+        </div>
     </header>
     <main class="conteudo">
-        <section class="conteudo__banner">
+        <section class="conteudo__banner secao">
             <a href="https://www.opera.com/gx/always-a-gamer-orc/">
                 <div class="conteudo__banner-imagem">
                 </div>
             </a>
         </section>
 
-        <section class="calendario">
-            <h2 class="calendario__titulo">Calendário de Lançamentos</h2>
+        <section class="calendario secao">
+            <h2 class="titulos">Calendário de Lançamentos</h2>
             <ul class="calendario__conteudo">
                 <li class="calendario__jogo">
                     <a class="calendario__jogo-link" href="#">
@@ -127,6 +134,53 @@
         </section>
 
         <!--Editando daqui pra baixo-->
+
+        <section class="selecao secao">
+            <h2 class="titulos">Seleção GX.Games</h2>
+            <ul class="selecao__itens">
+                <li class="selecao__jogo">
+                    <a href="#" class="selecao__jogo-link">
+                        <img src="./assets/img/lost-in-deep.webp" alt="" class="selecao__jogo-imagem"></img>
+
+                        <div class="selecao__informacoes">
+                            <ul class="selecao__informacoes-tags">
+                                <li class="tag">Shooter</li>
+                                <li class="tag">Metroidvania</li>
+                                <li class="tag">Platform</li>
+                            </ul>
+                            <h3 class="selecao__informacoes-titulo">Lost In Deep</h3>
+                        </div>
+                    </a>
+                </li>
+                <li class="selecao__jogo">
+                    <a href="#" class="selecao__jogo-link">
+                        <img src="./assets/img/all-you-can-take.webp" alt="" class="selecao__jogo-imagem"></img>
+                        <div class="selecao__informacoes">
+                            <ul class="selecao__informacoes-tags">
+                                <li class="tag">Party</li>
+                                <li class="tag">Platformer</li>
+                                <li class="tag">Simulator</li>
+                            </ul>
+                            <h3 class="selecao__informacoes-titulo">All You Can Take</h3>
+                        </div>
+                    </a>
+                </li>
+                <li class="selecao__jogo">
+                    <a href="#" class="selecao__jogo-link">
+                        <img src="./assets/img/rubber-bandits.png" alt="" class="selecao__jogo-imagem"></img>
+
+                        <div class="selecao__informacoes">
+                            <ul class="selecao__informacoes-tags">
+                                <li class="tag">Roguelike</li>
+                                <li class="tag">Action</li>
+                                <li class="tag">Adventure</li>
+                            </ul>
+                            <h3 class="selecao__informacoes-titulo">Rubber Bandits</h3>
+                        </div>
+                    </a>
+                </li>
+            </ul>
+        </section>
 
         <!--Editando daqui pra cima-->
     </main>
