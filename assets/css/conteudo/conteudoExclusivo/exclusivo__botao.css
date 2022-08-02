@@ -1,0 +1,13 @@
+.exclusivo__botao {
+    border: 1px solid #da1c47;
+    border-radius: 5px;
+    background-color: rgb(52, 13, 26);
+    color: #da1c47;
+    font-weight: 600;
+    padding: 0.5em;
+    width: fit-content;
+}
+
+.exclusivo__botao:hover {
+    background-color: rgb(74, 14, 31);
+}
