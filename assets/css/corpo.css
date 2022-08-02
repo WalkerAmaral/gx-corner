@@ -1,5 +1,6 @@
 .corpo {
-    margin: 0 13%;
+    width: 1046px;
+    margin: 0 auto;
     background-color: #0c080e;
     /* 
     background: #2B0101;
@@ -12,6 +13,6 @@
 }
 
 .secao {
-    padding: 1.5rem 0;
+    padding: 40px 0;
     border-bottom: 2px rgb(71, 58, 95) solid;
 }

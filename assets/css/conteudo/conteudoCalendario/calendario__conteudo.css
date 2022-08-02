@@ -1,5 +1,5 @@
 .calendario__conteudo {
     display: flex;
-    height: 75%;
+    box-sizing: content-box;
     justify-content: space-around;
 }
